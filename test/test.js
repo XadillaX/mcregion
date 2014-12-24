@@ -9,7 +9,11 @@ var RegionParser = require("../lib/region_parser");
 RegionParser.parse("./r.1.0.mca", function(err, region) {
     if(err) return console.error(err);
 
-    console.log(region);
-    console.log(region.buffer);
+    for(var i = 0; i < region.chunkCount(); i++) {
+        var chunk = region.chunkAt(i);
+        if(chunk && !chunk.empty) {
+            console.log(i, chunk);
+        }
+    }
 });
 
