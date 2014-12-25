@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "scarlet-task": "^0.1.0-comment",
-    "mcnbt": "^0.0.0-alpha"
+    "mcnbt": "^0.0.1-alpha"
   },
   "devDependencies": {},
   "scripts": {
