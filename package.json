@@ -7,7 +7,7 @@
     "test": "test"
   },
   "dependencies": {
-    "scarlet-task": "^0.1.0-comment",
+    "scarlet-task": "^2.0.0",
     "mcnbt": "^0.0.1-alpha"
   },
   "devDependencies": {},
